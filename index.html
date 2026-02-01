@@ -237,49 +237,49 @@
       const menuItems = [
         {
           name: "Focaccia Suprema",
-          price: "$25.000",
+          price: "$26.000",
           desc: "Rellena de jamón seleccionado, queso fundido, huevo frito, panceta crocante, lechuga fresca y rodajas de tomate.",
           img: "images/focaccia-suprema.png",
         },
         {
           name: "Focaccia de la Casa",
-          price: "$20.000",
+          price: "$23.500",
           desc: "Una combinación clásica de jamón seleccionado, queso dambo en fetas, huevo y panceta ahumada.",
           img: "images/focaccia-de-la-casa.png",
         },
         {
           name: "Focaccia Tradicional",
-          price: "$15.000",
+          price: "$20.000",
           desc: "Simple y perfecta: relleno de jamón cocido y queso dambo en láminas de primera calidad.",
           img: "images/focaccia-tradicional.png",
         },
         {
           name: "Focaccia Mar y Monte",
-          price: "$22.000",
+          price: "$25.000",
           desc: "Rellena de lomitos de atún desmenuzados, nueces picadas, ciboulette, toque de roquefort, lechuga y tomate.",
           img: "images/focaccia-mar-y-monte.png",
         },
         {
           name: "Focaccia Caramelizada",
-          price: "$23.500",
+          price: "$25.000",
           desc: "Jamón cocido, queso dambo, panceta crocante y nuestras exclusivas cebollas caramelizadas.",
           img: "images/focaccia-caramelizada.png",
         },
         {
           name: "Focaccia Especial Gourmet",
-          price: "$24.000",
+          price: "$26.000",
           desc: "Lo más completo: jamón cocido, queso dambo, panceta, huevo frito y la dulzura de la cebolla caramelizada.",
           img: "images/focaccia-especial-gourmet.png",
         },
         {
           name: "Focaccia Fresh",
-          price: "$24.000",
+          price: "$25.500",
           desc: "Equilibrio total: jamón cocido, queso dambo, panceta, lechuga crujiente y rodajas de tomate maduro.",
           img: "images/focaccia-fresh.png",
         },
         {
           name: "Focaccia Ahumada",
-          price: "$17.000",
+          price: "$20.000",
           desc: "Para paladares intensos: jamón cocido, queso dambo fundido y panceta ahumada extra crocante.",
           img: "images/focaccia-ahumada.png",
         },
@@ -288,36 +288,43 @@
       const sandwichItems = [
         {
           name: "Sandwich Irresistible",
+          price: "$15.000",
           desc: "Pan suave, relleno con capas de jamón cocido y queso perfectamente derretidos. Simple, caliente y delicioso.",
           img: "images/sandwich-irresistible.jpeg",
         },
         {
           name: "Dambo Royale",
+          price: "$17.000",
           desc: "Pan artesanal dorado, jamón cocido, abundante queso dambo fundido y un huevo a la plancha.",
           img: "images/dambo-royale.jpeg",
         },
         {
           name: "Dambo Smoke & Crunch",
+          price: "$18.000",
           desc: "Jamón cocido y queso dambo fundido con panceta ahumada crocante.",
           img: "images/dambo-smoke-crunch.jpeg",
         },
         {
           name: "Dambo Smoke & Garden",
+          price: "$18.000",
           desc: "Jamón cocido premium, queso dambo fundido, panceta crocante y tomate fresco.",
           img: "images/dambo-smoke-garden.jpeg",
         },
         {
           name: "Desbocado",
+          price: "$18.000",
           desc: "La combinación entre lo intenso y lo fresco. pan artesanal, con jamón cocido, queso dambo, panceta ahumada crocante y rodajas de tomate y lechuga fresca.",
           img: "images/desbocado.jpeg",
         },
         {
           name: "Smoke & green",
+          price: "$16.000",
           desc: "Pan suave, relleno con capas de queso Dambo, lechuga y tomate fresco. el perfecto crunch en cada bocado.",
           img: "images/smoke-green.jpeg",
         },
         {
           name: "El fundido ahumado",
+          price: "$19.000",
           desc: "Pan artesanal suave con jamón cocido, queso Dambo fundido, panceta ahumada crocante y cebolla caramelizada. sabor intenso y equilibrado.",
           img: "images/fundido-ahumado.jpeg",
         }
@@ -373,6 +380,7 @@
           <div class="py-10 px-4 flex flex-col">
             <div class="flex justify-between items-baseline mb-4">
               <h3 class="text-2xl font-black text-black uppercase tracking-tight">${item.name}</h3>
+              <span class="text-lg font-medium text-zinc-400">${item.price}</span>
             </div>
 
             <p class="text-zinc-500 text-xs leading-relaxed max-w-sm">${item.desc}</p>
