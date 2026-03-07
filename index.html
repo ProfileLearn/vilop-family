@@ -91,6 +91,20 @@
         }
       }
     </style>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-JN5QJN2WLS"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-JN5QJN2WLS");
+    </script>
   </head>
 
   <body class="text-black antialiased">
@@ -122,21 +136,32 @@
             >
           </div>
         </div>
-        <p
-          class="uppercase tracking-[0.5em] text-md font-extrabold italic"
-        >
+        <p class="uppercase tracking-[0.5em] text-md font-extrabold italic">
           Exquisitez Artesanal • Sándwiches
         </p>
         <p class="text-zinc-500 text-sm mt-8 max-w-md mx-auto">
-          Hacé tu pedido por WhatsApp al <strong>+54 9 11 3179 9740</strong> de lunes a domingo, de 17 a 22hs.
-          <br>
+          Hacé tu pedido por WhatsApp al <strong>+54 9 11 3179 9740</strong> de
+          lunes a domingo, de 17 a 22hs.
+          <br />
           Entrega gratuita en Vicente López a partir de $30.000.
         </p>
+        <div class="mt-5 no-print">
+          <a
+            href="https://wa.me/5491131799740?text=Hola%2C%20quiero%20hacer%20un%20pedido."
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center justify-center rounded-full bg-zinc-900 px-6 py-3 text-sm font-semibold uppercase tracking-[0.2em] text-white transition hover:bg-zinc-700"
+          >
+            Pedir por WhatsApp
+          </a>
+        </div>
         <p class="text-zinc-500 text-sm mt-8 max-w-md mx-auto">
-          También hacemos catering para eventos y reuniones familiares. Consultanos!
+          También hacemos catering para eventos y reuniones familiares.
+          Consultanos!
         </p>
         <p class="text-zinc-500 text-sm mt-8 max-w-md mx-auto">
-          Si te interesan nuestras focaccias, tomamos pedidos con 1 día de anticipación.
+          Si te interesan nuestras focaccias, tomamos pedidos con 1 día de
+          anticipación.
         </p>
       </header>
 
@@ -147,7 +172,9 @@
           </h2>
 
           <div class="mt-6 mb-10">
-            <h3 class="text-xl font-black tracking-tight uppercase text-zinc-800 mb-4">
+            <h3
+              class="text-xl font-black tracking-tight uppercase text-zinc-800 mb-4"
+            >
               Focaccias enteras
             </h3>
             <p class="text-sm text-zinc-500 mb-6">
@@ -159,7 +186,9 @@
             ></div>
           </div>
 
-          <p class="text-zinc-500 text-md font-black">ELIGE LA BASE DE TU SANDWICH:</p>
+          <p class="text-zinc-500 text-md font-black">
+            ELIGE LA BASE DE TU SANDWICH:
+          </p>
         </div>
 
         <div
@@ -242,15 +271,13 @@
         <div class="font-black text-3xl tracking-tighter mb-2">
           ViLop Family
         </div>
-        <h3
-          class=" text-md uppercase tracking-widest"
-        >Sabor que une a la familia
-      </h3>
+        <h3 class="text-md uppercase tracking-widest">
+          Sabor que une a la familia
+        </h3>
       </footer>
     </div>
 
     <script>
-     
       const menuItems = [
         {
           name: "Focaccia Suprema",
@@ -305,7 +332,7 @@
           price: "$10.500",
           desc: "Queso Dambo, Tybo y Pategras fundidos, con tomate fresco. Tipo de focaccia: Papa Parmesana.",
           img: "images/sandwiches/derretido-focaccia.jpeg",
-        }        
+        },
       ];
 
       const focacciaSolo = [
@@ -363,29 +390,29 @@
           priceKilo: "$12.000",
           priceMedio: "$9.000",
           desc: "Elegancia pura con aceitunas negras, nueces tostadas y el perfume rústico del tomillo.",
-          img: "images/focaccias/focaccia-ebano.jpeg"
+          img: "images/focaccias/focaccia-ebano.jpeg",
         },
         {
           name: "Focaccia Esmeralda",
           priceKilo: "$12.000",
           priceMedio: "$9.000",
           desc: "Una joya verde vibrante con una costra de pistachos y almendras fileteadas. Crujiente y sofisticada.",
-          img: "images/focaccias/focaccia-esmeralda.jpeg"
+          img: "images/focaccias/focaccia-esmeralda.jpeg",
         },
         {
           name: "Focaccia Ónix",
           priceKilo: "$12.000",
           priceMedio: "$9.000",
           desc: "El misterio de la masa negra con el brillo de las aceitunas verdes y el toque salino del parmesano.",
-          img: "images/focaccias/focaccia-onix.jpeg"
+          img: "images/focaccias/focaccia-onix.jpeg",
         },
         {
           name: "Focaccia Rubí",
           priceKilo: "$12.000",
           priceMedio: "$9.000",
           desc: "La pasión de la cebolla caramelizada fundida con trozos de parmesano sobre una masa roja intensa.",
-          img: "images/focaccias/focaccia-rubi.jpeg"
-        }
+          img: "images/focaccias/focaccia-rubi.jpeg",
+        },
       ];
 
       const sandwichItems = [
@@ -430,7 +457,7 @@
           price: "$7.200",
           desc: "Queso dambo, tybo y pategras fundidos, con rodajas de tomate fresco.",
           img: "images/sandwiches/cheesy-delight.jpeg",
-        }
+        },
       ];
 
       function createMenu() {
